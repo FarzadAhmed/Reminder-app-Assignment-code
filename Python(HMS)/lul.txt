@@ -1,0 +1,16 @@
+def iExit():
+        iExit = tkinter.messagebox.askyesno("Student Books Management System","Really ? ;D")
+        if iExit > 0:
+            root.destroy()
+            return
+
+
+    def clearData():
+        self.txtStdID.delete(0,END)
+        self.txtfna.delete(0,END)
+        self.txtSna.delete(0,END)
+        self.txtDoB.delete(0,END)
+        self.txtAge.delete(0,END)
+        self.txtGender.delete(0,END)
+        self.txtAdr.delete(0,END)
+        self.txtMobile.delete(0,END)
